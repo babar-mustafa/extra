@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "299340805980",
+    "firebase_url": "https://marathon-sayalani.firebaseio.com",
+    "project_id": "marathon-sayalani",
+    "storage_bucket": "marathon-sayalani.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:299340805980:android:28dcde4fa1e5335b",
+        "android_client_info": {
+          "package_name": "com.example.babarmustafa.saylani_marathon"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "299340805980-9h4rmnq9acftsbjqnv7enqpm8t1uddgn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBtK9ltOGuTaLO5zvnB7pdbpQZ6Up-d3Qw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

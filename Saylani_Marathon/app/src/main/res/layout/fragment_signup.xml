@@ -1,0 +1,120 @@
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gt"
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+   >
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+ android:orientation="vertical"
+    android:layout_marginTop="60dp"
+    tools:context="com.example.babarmustafa.saylani_marathon.Fragments.Signup">
+
+
+    <EditText
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter name"
+        android:textColorHint="#FFFFFF"
+        android:textColor="#FFFFFF"
+        android:id="@+id/for_student_name"
+
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Email"
+        android:textColorHint="#FFFFFF"
+        android:textColor="#FFFFFF"
+        android:id="@+id/for_student_email"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Country"
+        android:textColorHint="#FFFFFF"
+        android:textColor="#FFFFFF"
+        android:id="@+id/for_student_country"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter City"
+        android:textColorHint="#FFFFFF"
+        android:textColor="#FFFFFF"
+        android:id="@+id/for_student_city"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Password"
+        android:textColorHint="#FFFFFF"
+        android:textColor="#FFFFFF"
+        android:id="@+id/for_student_password"
+
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Confirm Password"
+        android:textColorHint="#FFFFFF"
+        android:textColor="#FFFFFF"
+        android:id="@+id/for_student_password_confirm"
+
+        />
+
+    <RadioGroup
+        android:id="@+id/radioSex"
+        android:textColorHint="#FFFFFF"
+        android:textColor="#FFFFFF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:textColorHint="#FFFFFF"
+            android:textColor="#FFFFFF"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gender"
+            />
+
+        <RadioButton
+            android:textColorHint="#FFFFFF"
+            android:textColor="#FFFFFF"
+            android:id="@+id/radioMale"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Male"
+            android:checked="true"
+            />
+
+        <RadioButton
+            android:textColorHint="#FFFFFF"
+            android:textColor="#FFFFFF"
+            android:id="@+id/radioFemale"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Female"
+            />
+
+    </RadioGroup>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Signup"
+        android:layout_marginTop="20dp"
+        android:id="@+id/for_student_signup"
+        android:layout_gravity="center"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        />
+
+</LinearLayout>
+</ScrollView>

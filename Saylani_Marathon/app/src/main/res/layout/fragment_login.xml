@@ -1,0 +1,65 @@
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gt"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    >
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_marginTop="60dp"
+    android:id="@+id/gtiop"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.babarmustafa.saylani_marathon.Fragments.Login">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:padding="5dp"
+        android:textColorHint="#FFFFFF"
+        android:textColor="#FFFFFF"
+        android:id="@+id/e_email"
+        android:hint="Email"
+        android:text="babar@g.com"
+
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:padding="5dip"
+        android:textColorHint="#FFFFFF"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="10dp"
+        android:id="@+id/e_pass"
+        android:hint="Password"
+        android:text="1234567"
+
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Login"
+android:layout_marginTop="50dp"
+        android:id="@+id/login_buttobn"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="#FFFFFF"
+        android:textColor="#FFFFFF"
+        android:layout_gravity="center"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="50dp"
+
+        android:text="NO Account Yet? Want to Create?"
+        android:id="@+id/singup_calling_button"/>
+
+
+    />
+
+
+</LinearLayout>
+</ScrollView>
